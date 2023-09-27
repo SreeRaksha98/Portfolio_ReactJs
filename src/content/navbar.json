@@ -4,12 +4,12 @@
 		"title": "Home"
 	},
 	{
-		"url": "/docs",
-		"title": "Docs"
+		"url": "/experience",
+		"title": "Experience"
 	},
 	{
-		"url": "/articles",
-		"title": "Articles"
+		"url": "/skills",
+		"title": "Skills"
 	},
 	{
 		"url": "/projects",

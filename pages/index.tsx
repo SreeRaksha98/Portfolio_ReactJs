@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import colors from '../src/content/index/_colors.json';
 import TitleIndex from './title.index';
-
+import Education from "../src/components/sections/index/education";
 // Import your components with dynamic import
 import dynamic from 'next/dynamic';
 import LoadingAnim from "../src/components/intro/loadinganim";
@@ -43,9 +43,10 @@ export default function HomePage({spacing}: HomePageProps) {
 					<Hero />
 					<Looking />
 					<About />
-					<FeaturedProjects />
-					<Technical />
-					<Career />
+					<Education />
+					{/* <FeaturedProjects /> */}
+					{/* <Technical /> */}
+					{/* <Career /> */}
 					<QnA />
 				</>
 			{/*	) : (

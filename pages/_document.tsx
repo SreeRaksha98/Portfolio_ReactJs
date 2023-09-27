@@ -9,15 +9,16 @@ export default function Document() {
 			
 <Head>
 {/*
-				Author: Sree Raksha M R
+				Author: SreeRaksha M R
                  GitHub: Visit the GitHub repository at https://github.com/SreeRaksha98/portfolio/ for more details.
                  license: MIT License
                   */}
+
     <meta charSet="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
-    <title>Sree Raksha M R</title>
-       <meta name="description" content="Sree Raksha M R - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
+    <title>SreeRaksha M R</title>
+       <meta name="description" content="SreeRaksha M R - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
 
     {/*These are need for PWA*/}
     <meta name="apple-mobile-web-app-capable" content="yes" />

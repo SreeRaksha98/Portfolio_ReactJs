@@ -25,11 +25,11 @@ export default function Hero() {
 					sequence={[
 						content.intro.startDelay,
 						() => { setTypingStatus('typing') },
-						content.intro.start,
+						content.intro.start, //code
 						() => {	setTypingStatus('typed') },
-						content.intro.deleteDelay,
+						content.intro.deleteDelay, //timelimit
 						() => {	setTypingStatus('deleting') },
-						content.intro.end,
+						content.intro.end, //intro
 						() => {	setTypingStatus('deleted') },
 						content.intro.restartDelay,
 					]}
@@ -38,6 +38,8 @@ export default function Hero() {
 					wrapper={content.intro.wrapper}
 					repeat={Infinity}
 				/>
+
+				{/* -----------------------------------name and title */}
 				<section>
 					<h1 className={hero.header}>
 						{content.header.name}
@@ -46,18 +48,22 @@ export default function Hero() {
 						{content.header.usp}
 					</h1>
 				</section>
+
+				{/* ----------------------------------- content */}
 				<section>
-					<p className={`${hero.primaryBright} subtitle ${space(["verticalLrg"])}`}>
+					<p className= {`${hero.primaryBright} text-justify subtitle ${space(["verticalLrg"])}`}>
 						{ content.paragraph }
 					</p>					
 				</section>
+
+				{/* ----------------------------------- linkedIn and email */}
 				<section>
 					<button	className={`button ${button.primary}`}
 							onClick={ () => window.location = 'mailto:sreeraksha1998@gmail.com' } >
 						{content.buttons.primary.title}
 					</button>
 					<button className={`button ${button.secondary} leaveSite`}
-							onClick={ ()=> window.open("https://www.linkedin.com/in/SreeRaksha98-/", "_blank") } >
+							onClick={ ()=> window.open("https://www.linkedin.com/in/sreeraksha-m-r-179373159", "_blank") } >
 						{content.buttons.secondary.title}
 					</button>
 				</section>

@@ -10,7 +10,6 @@ import SectionTitle from '../../blocks/section.title'
 
 // Career scss
 import career from '../../../../assets/styles/scss/sections/index/career.module.scss'
-import Education from "./education";
 
 
 export default function Career() {
@@ -80,7 +79,7 @@ As a semi-professional Full Stack Developer, my current focus lies in the field 
 */}
 				</section>
 			</Container>
-			<Education/>
+			{/* <Education/> */}
 
 		</Section>
 
