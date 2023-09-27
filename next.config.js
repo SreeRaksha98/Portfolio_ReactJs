@@ -59,7 +59,7 @@ Don't remove these this uses the protocol that are need to function properly
 			{
 				protocol: 'https',
 				hostname: '**.vercel.app',
-				pathname: '?app=muhammadfiaz-com-git-main-muhammadfiaz.vercel.app'
+				pathname: '?app=sreeraksha1998-com-git-main-sreeraksha1998.vercel.app'
 			},
 			{
 				protocol: 'https',

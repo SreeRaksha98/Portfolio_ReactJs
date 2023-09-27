@@ -9,20 +9,20 @@ export default function Document() {
 			
 <Head>
 {/*
-				Author: Muhammad Fiaz
-                 GitHub: Visit the GitHub repository at https://github.com/muhammad-fiaz/portfolio/ for more details.
+				Author: Sree Raksha M R
+                 GitHub: Visit the GitHub repository at https://github.com/SreeRaksha98/portfolio/ for more details.
                  license: MIT License
                   */}
     <meta charSet="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
-    <title>Muhammad Fiaz</title>
-       <meta name="description" content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
+    <title>Sree Raksha M R</title>
+       <meta name="description" content="Sree Raksha M R - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
 
     {/*These are need for PWA*/}
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="Muhammad Fiaz" />
+    <meta name="apple-mobile-web-app-title" content="Sree Raksha M R" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
@@ -32,17 +32,17 @@ export default function Document() {
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
             <meta name="language" content="English"/>
             <meta name="revisit-after" content="1 days"/>
-            <link rel="canonical" href="https://muhammadfiaz.com" />
+            <link rel="canonical" href="https://sreeraksha.in" />
             <meta name="license" content="MIT License" />
             <meta httpEquiv="content-language" content="en-us" />
 
-            <link rel="preconnect" href="https://muhammadfiaz.com" />
+            <link rel="preconnect" href="https://sreeraksha.in" />
 
-            <link rel="dns-prefetch" href="https://muhammadfiaz.com" />
+            <link rel="dns-prefetch" href="https://sreeraksha.in" />
 
-            <meta name="author" content="Muhammad Fiaz" />
+            <meta name="author" content="Sree Raksha M R" />
 
-            <link rel="alternate" hrefLang="en" href="https://muhammadfiaz.com" />
+            <link rel="alternate" hrefLang="en" href="https://sreeraksha.in" />
 
             <meta name="robots" content="index, follow" />
             <meta name="googlebot" content="index, follow" />
@@ -65,28 +65,28 @@ export default function Document() {
 
 
 
-            <meta property="og:title" content="Muhammad Fiaz" key="title" />
-            <meta property="og:description" content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta property="og:image" content="https://muhammadfiaz.com/img/muhammadfiaz.jpeg" />
-            <meta property="og:image:secure_url" content="https://muhammadfiaz.com/img/muhammadfiaz.jpeg" />
+            <meta property="og:title" content="Sree Raksha M R" key="title" />
+            <meta property="og:description" content="Sree Raksha M R - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
+            <meta property="og:image" content="https://sreeraksha.in/img/sreeraksha1998.jpeg" />
+            <meta property="og:image:secure_url" content="https://sreeraksha.in/img/sreeraksha1998.jpeg" />
             <meta property="og:image:type" content="image/jpeg" />
-            <meta property="og:image:alt" content="Muhammad Fiaz" />
+            <meta property="og:image:alt" content="Sree Raksha M R" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
-            <meta property="og:url" content="https://muhammadfiaz.com" />
+            <meta property="og:url" content="https://sreeraksha.in" />
             <meta property="og:type" content="website" />
-            <meta property="og:profile" content="https://github.com/muhammad-fiaz" />
-            <meta property="og:site_name" content="Muhammad Fiaz" />
+            <meta property="og:profile" content="https://github.com/SreeRaksha98" />
+            <meta property="og:site_name" content="Sree Raksha M R" />
              <meta property="og:locale" content="en_US" />
 
 
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:site" content="https://twitter.com/muhammadfiaz_" />
-            <meta name="twitter:title" content="Muhammad Fiaz" />
-            <meta name="twitter:description" content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta name="twitter:image" content="https://muhammadfiaz.com/img/muhammadfiaz.jpeg" />
-            <meta name="twitter:creator" content="https://twitter.com/muhammadfiaz_" />
-            <meta name="twitter:domain" content="https://muhammadfiaz.com" />
+            <meta name="twitter:site" content="https://twitter.com/sreeraksha" />
+            <meta name="twitter:title" content="Sree Raksha M R" />
+            <meta name="twitter:description" content="Sree Raksha M R - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
+            <meta name="twitter:image" content="https://sreeraksha.in/img/sreeraksha1998.jpeg" />
+            <meta name="twitter:creator" content="https://twitter.com/sreeraksha" />
+            <meta name="twitter:domain" content="https://sreeraksha.in" />
 
 
     <link rel='apple-touch-startup-image' href='/img/logo_rounded.png' sizes='2048x2732' />
@@ -99,28 +99,28 @@ export default function Document() {
 
             {/*These are the Keywords that will Boost your SEO in Ranking, so Make Sure to include and Update it up to your preference or don't mind this! 😴*/}
             <meta name="keywords" content="
-    Muhammad Fiaz, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
+    Sree Raksha M R, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
     Programmer, Software Developer, Portfolio Website, Web Developer, Coding, Full Stack Development,
     Technology Enthusiast, Software Development, Computer Science, Programming Projects,
     Frontend Developer, Backend Developer, Software Development Portfolio, Student,
-    Full Stack Web Developer, Muhammad Fiaz Portfolio, Coding Projects, Tech Portfolio,
-    Web Development, DevOps Professional, Muhammad Fiaz Projects, Software Engineer Portfolio,
+    Full Stack Web Developer, Sree Raksha M R Portfolio, Coding Projects, Tech Portfolio,
+    Web Development, DevOps Professional, Sree Raksha M R Projects, Software Engineer Portfolio,
     IT Professional, Technology Projects, Software Development Engineer, Computer Programmer,
     Code Portfolio, Technology Student, Software Architect, Cloud Computing,
     DevOps Specialist, Software Engineering Projects, Coding Portfolio,
-    Full Stack Engineer Portfolio, Muhammad Fiaz Web Developer,
+    Full Stack Engineer Portfolio, Sree Raksha M R Web Developer,
     Software Development Student, Coding Enthusiast, DevOps Portfolio, Programming Portfolio,
-    Muhammad Fiaz DevOps, IT Portfolio, Web Developer Portfolio, Muhammad Fiaz Developer,
-    Full Stack Engineer Muhammad Fiaz, Muhammad Fiaz Coding, Muhammad Fiaz IT,
-    Muhammad Fiaz Full Stack Developer, Muhammad Fiaz Software Engineer, Muhammad Fiaz DevOps Engineer,
-    Muhammad Fiaz Programming, Muhammad Fiaz Software Development, Muhammad Fiaz Coding Projects,
-    Muhammad Fiaz Tech Portfolio, Muhammad Fiaz IT Portfolio, Muhammad Fiaz Software Engineer Portfolio,
-    Muhammad Fiaz Web Developer Portfolio, Muhammad Fiaz DevOps Portfolio, Muhammad Fiaz Full Stack Engineer,
-    Muhammad Fiaz Full Stack Developer Portfolio, Muhammad Fiaz Coding Portfolio, Muhammad Fiaz Programming Portfolio,
-    Muhammad Fiaz Software Development Portfolio, Muhammad Fiaz Technology Projects,
-    Muhammad Fiaz Computer Science, Muhammad Fiaz Cloud Computing, Muhammad Fiaz IT Professional,
-    Muhammad Fiaz Technology Enthusiast, Muhammad Fiaz Computer Programmer, Muhammad Fiaz Code Portfolio,
-    Muhammad Fiaz Technology Student, Muhammad Fiaz Software Architect,fiaz,fiaz portfolio,fiaz devops,fiaz devops engineer,
+    Sree Raksha M R DevOps, IT Portfolio, Web Developer Portfolio, Sree Raksha M R Developer,
+    Full Stack Engineer Sree Raksha M R, Sree Raksha M R Coding, Sree Raksha M R IT,
+    Sree Raksha M R Full Stack Developer, Sree Raksha M R Software Engineer, Sree Raksha M R DevOps Engineer,
+    Sree Raksha M R Programming, Sree Raksha M R Software Development, Sree Raksha M R Coding Projects,
+    Sree Raksha M R Tech Portfolio, Sree Raksha M R IT Portfolio, Sree Raksha M R Software Engineer Portfolio,
+    Sree Raksha M R Web Developer Portfolio, Sree Raksha M R DevOps Portfolio, Sree Raksha M R Full Stack Engineer,
+    Sree Raksha M R Full Stack Developer Portfolio, Sree Raksha M R Coding Portfolio, Sree Raksha M R Programming Portfolio,
+    Sree Raksha M R Software Development Portfolio, Sree Raksha M R Technology Projects,
+    Sree Raksha M R Computer Science, Sree Raksha M R Cloud Computing, Sree Raksha M R IT Professional,
+    Sree Raksha M R Technology Enthusiast, Sree Raksha M R Computer Programmer, Sree Raksha M R Code Portfolio,
+    Sree Raksha M R Technology Student, Sree Raksha M R Software Architect,fiaz,fiaz portfolio,fiaz devops,fiaz devops engineer,
     fiaz devops portfolio,fiaz devops projects,fiaz devops specialist,fiaz devops professional,fiaz devops engineer portfolio,
     fiaz devops engineer projects,fiaz devops engineer specialist,fiaz devops engineer professional,fiaz devops engineer coding,
     fiaz devops engineer coding projects,fiaz devops engineer coding portfolio,fiaz devops engineer coding specialist,
@@ -140,14 +140,14 @@ export default function Document() {
                     __html: `{
           "@context": "https://schema.org",
           "@type": "Person",
-          "name": "Muhammad Fiaz",
-          "url": "https://muhammadfiaz.com",
+          "name": "Sree Raksha M R",
+          "url": "https://sreeraksha.in",
           "sameAs": [
-            "https://github.com/muhammad-fiaz",
-            "https://www.linkedin.com/in/muhammad-fiaz-",
-            "https://medium.com/@muhammad-fiaz",
-            "https://twitter.com/muhammadfiaz_",
-            "https://dev.to/muhammadfiaz"
+            "https://github.com/SreeRaksha98",
+            "https://www.linkedin.com/in/SreeRaksha98-",
+            "https://medium.com/@SreeRaksha98",
+            "https://twitter.com/sreeraksha",
+            "https://dev.to/sreeraksha1998"
           ]
         }`
                 }}
@@ -179,26 +179,26 @@ export default function Document() {
               },
               {
                 "@type": "Question",
-                "name": "Who is Muhammad Fiaz?",
+                "name": "Who is Sree Raksha M R?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Muhammad Fiaz is a Full Stack Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Muhammad Fiaz strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Muhammad Fiaz is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
+                  "text": "Sree Raksha M R is a Full Stack Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Sree Raksha M R strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Sree Raksha M R is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Where is Muhammad Fiaz from?",
+                "name": "Where is Sree Raksha M R from?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Muhammad Fiaz is from Madurai, Tamil Nadu, India."
+                  "text": "Sree Raksha M R is from Madurai, Tamil Nadu, India."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What does Muhammad Fiaz do?",
+                "name": "What does Sree Raksha M R do?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Muhammad Fiaz leverages Cloud, DevOps, ML/AI, Design, and web/mobile apps to benefit people with optimized operations and user-friendly experiences."
+                  "text": "Sree Raksha M R leverages Cloud, DevOps, ML/AI, Design, and web/mobile apps to benefit people with optimized operations and user-friendly experiences."
                 }
               }
             ]
@@ -216,27 +216,27 @@ export default function Document() {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://muhammadfiaz.com/"
+              "item": "https://sreeraksha.in/"
             },{
               "@type": "ListItem",
               "position": 2,
               "name": "Docs",
-              "item": "https://muhammadfiaz.com/docs"
+              "item": "https://sreeraksha.in/docs"
             },{
               "@type": "ListItem",
               "position": 3,
               "name": "Articles",
-              "item": "https://muhammadfiaz.com/articles"
+              "item": "https://sreeraksha.in/articles"
             },{
               "@type": "ListItem",
               "position": 4,
               "name": "Projects",
-              "item": "https://muhammadfiaz.com/projects"
+              "item": "https://sreeraksha.in/projects"
             },{
               "@type": "ListItem",
               "position": 5,
               "name": "Sign In",
-              "item": "https://muhammadfiaz.com/signin"
+              "item": "https://sreeraksha.in/signin"
             }]
           }
         `
@@ -251,10 +251,10 @@ export default function Document() {
             "name": "NeuroLink",
             "description": "NeuroLink is a Python package that aims to provide various AI capabilities, including a chatbot, image processing, audio processing, Django support, and more. It utilizes TensorFlow and other related technologies for natural language processing and AI tasks.",
             "alternateName": "neurolink",
-            "url": "https://github.com/muhammad-fiaz/neurolink",
+            "url": "https://github.com/SreeRaksha98/neurolink",
             "logo": "https://private-user-images.githubusercontent.com/75434191/242214243-82fbf702-43e2-46e6-8e01-11758fa26310.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQ4NTE2ODksIm5iZiI6MTY5NDg1MTM4OSwicGF0aCI6Ii83NTQzNDE5MS8yNDIyMTQyNDMtODJmYmY3MDItNDNlMi00NmU2LThlMDEtMTE3NThmYTI2MzEwLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTE2VDA4MDMwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ3NjJmNzA5MGU5NWY4NTUxZTcxYmVmNzNlZTYzOTViN2FjNzE1YTM2MjM1OTNlOGIxNzk0ODE1NDczMDMzNGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ay5bRLRoojQ33ZJLFnvjyq6Dq4qZfDY7quvv4WmgRLI",
              "sameAs": [
-            "https://www.linkedin.com/in/muhammad-fiaz-/"
+            "https://www.linkedin.com/in/SreeRaksha98-/"
         ]          }
         `
             }} />

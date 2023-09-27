@@ -16,13 +16,7 @@
 		"@fortawesome/free-brands-svg-icons": "6.4.2",
 		"@fortawesome/free-regular-svg-icons": "6.4.2",
 		"@fortawesome/free-solid-svg-icons": "^6.4.2",
-		"@fortawesome/pro-duotone-svg-icons": "^6.2.1",
-		"@fortawesome/pro-light-svg-icons": "^6.2.1",
-		"@fortawesome/pro-regular-svg-icons": "^6.2.1",
-		"@fortawesome/pro-solid-svg-icons": "^6.2.1",
-		"@fortawesome/pro-thin-svg-icons": "^6.2.1",
 		"@fortawesome/react-fontawesome": "^0.2.0",
-		"@fortawesome/sharp-solid-svg-icons": "^6.2.1",
 		"@hcaptcha/react-hcaptcha": "^1.8.1",
 		"@lottiefiles/react-lottie-player": "^3.5.3",
 		"@uiw/react-markdown-preview": "^4.1.15",
@@ -81,9 +75,7 @@
 		"node-sass": "^9.0.0",
 		"postcss": "^8.4.30",
 		"purgecss": "^5.0.0",
-
 		"sass": "^1.68.0",
-
 		"sass-loader": "^13.3.2",
 		"style-loader": "^3.3.3",
 		"tailwindcss": "^3.3.3",
@@ -97,7 +89,7 @@
 	"name": "portfolio",
 	"version": "1.0.4",
 	"main": "pages/index.tsx",
-	"repository": "https://github.com/muhammad-fiaz/portfolio.git",
-	"author": "muhammad-fiaz <s.muhammadfiaz2003@gmail.com>",
+	"repository": "https://github.com/SreeRaksha98/portfolio.git",
+	"author": "SreeRaksha98 <sreeraksha1998@gmail.com>",
 	"license": "MIT"
 }

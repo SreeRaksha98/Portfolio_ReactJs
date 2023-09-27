@@ -306,7 +306,7 @@ export default function SetTheme() {
 										if (i.excludeFrom !== n) {
 											if ("array" === i.type)
 												return (
-													i.value[0].getDeclaration(
+													i.value?.[0]?.getDeclaration && i.value?.[0].getDeclaration(
 														e,
 														n,
 														i.value.length,

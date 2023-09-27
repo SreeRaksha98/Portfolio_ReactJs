@@ -1,8 +1,8 @@
 {
 	"Websites": [
 		{
-			"person": "muhammadfiaz.com",
-			"link": "https://muhammadfiaz.com/",
+			"person": "sreeraksha1998.com",
+			"link": "https://sreeraksha.in/",
 			"note": ""
 		}
 
@@ -11,27 +11,27 @@
 	"links": [
 		{
 			"person": "Home",
-			"link": "https://muhammadfiaz.com/",
+			"link": "https://sreeraksha.in/",
 			"note": ""
 		},
 		{ 
 			"person": "Documentations",
-			"link": "https://muhammadfiaz.com/docs",
+			"link": "https://sreeraksha.in/docs",
 			"note": ""
 		},	{
 			"person": "Articles",
-			"link": "https://muhammadfiaz.com/articles",
+			"link": "https://sreeraksha.in/articles",
 			"note": ""
 		},
 
 		{
 			"person": "Projects",
-			"link": "https://muhammadfiaz.com/projects",
+			"link": "https://sreeraksha.in/projects",
 			"note": ""
 		},
 		{
 			"person": "Contact",
-			"link": "mailto:s.muhammadfiaz2003@gmail.com",
+			"link": "mailto:sreeraksha1998@gmail.com",
 			"note": ""
 		}
 
@@ -40,19 +40,19 @@
 
 	"social": [
 		{
-			"url": "https://medium.com/@muhammad-fiaz",
+			"url": "https://medium.com/@SreeRaksha98",
 			"icon": "medium"
 		},
 		{
-			"url": "https://dev.to/muhammadfiaz",
+			"url": "https://dev.to/sreeraksha1998",
 			"icon": "dev"
 		},
 		{
-			"url": "https://www.linkedin.com/in/muhammad-fiaz-/",
+			"url": "https://www.linkedin.com/in/SreeRaksha98-/",
 			"icon": "linkedin"
 		},
 		{
-			"url": "https://github.com/muhammad-fiaz",
+			"url": "https://github.com/SreeRaksha98",
 			"icon": "github"
 		}
 	]
