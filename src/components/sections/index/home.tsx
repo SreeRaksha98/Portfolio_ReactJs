@@ -11,7 +11,9 @@ import CopyBlock from '../../blocks/about.copy'
 
 import about from '../../../../assets/styles/scss/sections/index/about.module.scss';
 import React from "react";
-
+import { faPeopleRoof } from '@fortawesome/free-solid-svg-icons';
+import userIcon from "../../Icons/userIcon";
+import Hobbies from '../../Icons/Hobbies';
 export default function Home() {
 	return (
 		<Section classProp={about.section}>
@@ -30,7 +32,8 @@ export default function Home() {
 							title="Softskills"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fas', 'user' ]}
+							// icon={['fas', 'user']}
+							iconString={userIcon()}
 							copy="Soft skills are essential for frontend developers as they often work closely with both technical and non-technical team members 
 							and are responsible for creating user-friendly interfaces.  Effective communication is crucial in understanding project requirements, 
 							collaborating with designers, and conveying technical information to non-technical stakeholders.  Frontend development often involves 
@@ -42,7 +45,8 @@ export default function Home() {
 							title="Hobbies"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={['fas', 'code']}
+							iconString={Hobbies()}
+							// icon={['fas', 'code']}
 							copy="I'm a versatile individual with a passion for creativity and self-expression. My journey includes a successful modeling career, having received the Miss Philomena Award twice and actively participating in the Miss Mysore Competition. In addition, I enjoy the art of pencil sketching and find solace in playing the guitar, demonstrating a well-rounded approach to my interests and talents."
 						/>
 					</div>

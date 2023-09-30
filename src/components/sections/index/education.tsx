@@ -24,9 +24,9 @@ export default function Education() {
                         <div className="flex flex-row-reverse md:contents">
                             <div className="w-full col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto border border-gray-300">
                                 <h3 className="font-semibold text-xl mb-1 text-gray-900">2013</h3>
-                                <p className="text-gray-600">{"Schooling at Marimallappa's High School"}
+                                <div className="text-gray-600">{"Schooling at Marimallappa's High School"}
                                     <div>{"Marks: 78.08%"}</div>
-                                </p>
+                                </div>
                             </div>
 
                             <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -49,18 +49,18 @@ export default function Education() {
                             {/* End	 */}
                             <div className="w-full col-start-6 col-end-10 my-4 mr-auto p-4 border border-gray-300 rounded-xl">
                                 <h3 className="font-semibold text-xl mb-1 text-gray-900">2013-2015</h3>
-                                <p className="text-gray-600">{"St.Philomena's PU College"}
+                                <div className="text-gray-600">{"St.Philomena's PU College"}
                                     <div>{"Mark: 76.16%"}</div>
-                                </p>
+                                </div>
                             </div>
                         </div>
 
                         <div className="flex flex-row-reverse md:contents">
                             <div className="w-full col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto border border-gray-300">
                                 <h3 className="font-semibold text-xl mb-1 text-gray-900">2015-2019</h3>
-                                <p className="text-gray-600">GSSS Institute of Engineering and Technology for Women’s
+                                <div className="text-gray-600">{`GSSS Institute of Engineering and Technology for Women's`}
                                     <div>{"Marks: 7.5CGPA"}</div>
-                                </p>
+                                </div>
                             </div>
 
                             <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -83,17 +83,17 @@ export default function Education() {
 
                             <div className="w-full col-start-6 col-end-10 my-4 mr-auto p-4 border border-gray-300 rounded-xl">
                                 <h3 className="font-semibold text-xl mb-1 text-gray-900">2020-2021</h3>
-                                <p className="text-gray-600">Graduate Intern at Dell EMC.                              
-                                </p>
+                                <div className="text-gray-600">Graduate Intern at Dell EMC.                              
+                                </div>
                             </div>
                         </div>
                         <div className="flex flex-row-reverse md:contents">
                             <div className="w-full col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto border border-gray-300">
                                 <h3 className="font-semibold text-xl mb-1 text-gray-900">2019-2021</h3>
-                                <p className="text-gray-600">
+                                <div className="text-gray-600">
                                     JSS Science and Technology University.
                                     <div>{"Marks: 9.02CGPA"}</div>
-                                </p>
+                                </div>
                             </div>
 
                             <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -115,9 +115,9 @@ export default function Education() {
 
                             <div className="w-full col-start-6 col-end-10 my-4 mr-auto p-4 border border-gray-300 rounded-xl">
                                 <h3 className="font-semibold text-xl mb-1 text-gray-900">2021-current</h3>
-                                <p className="text-gray-600">
+                                <div className="text-gray-600">
                                     <strong>System Engineer</strong><br />
-                                    Oracle Cerner - Full-time</p>
+                                    Oracle Cerner - Full-time</div>
                             </div>
                         </div>
                     </div>

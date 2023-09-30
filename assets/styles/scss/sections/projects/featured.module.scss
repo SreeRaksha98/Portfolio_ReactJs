@@ -32,8 +32,10 @@
 	}
 }
 
-
-.projectHeader  {
+.experienceContainer {
+	margin-top: 2rem;
+}
+.projectHeader {
 	display: flex;
 	flex-direction: column;
 	gap: var(--size-3x);
@@ -74,7 +76,7 @@
 
 }
 
-.details {
+.details, .experience  {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 0;
@@ -100,7 +102,19 @@
 		display: none;
 	}
 }
-
+.experience {
+	width: 100%;
+	cursor: default;
+	.projectHeader {
+		gap: 0;
+	}
+	.header {
+		margin-bottom: 1rem;
+	}
+	.description {
+		margin-bottom: .3rem;
+	}
+}
 .imageContainer {
 	z-index: 3;
 	position: relative;
