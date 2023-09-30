@@ -11,7 +11,7 @@ export default function TitleProjects() {
 
             {/*These are the Keywords that will Boost your SEO in Ranking, so Make Sure to include and Update it up to your preference or don't mind this! 😴*/}
             <meta name="keywords" content="Sree Raksha M R,Sree Raksha M R Projects,Projects,fiaz, Full Stack Engineer, Developer, Software, Web Development, Coding, Portfolio" />
-            <title>Sree Raksha M R Projects</title>
+            <title>SreeRaksha M R Projects</title>
         </Head>
     );
 }

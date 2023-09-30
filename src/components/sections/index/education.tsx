@@ -13,11 +13,11 @@ export default function Education() {
     return (
         <Section classProp={about.section}>
             <Container spacing={['verticalXLrg']}>
-            <SectionTitle
-					title="Education"
-					preTitle="timeline"
-					subTitle=""
-				/>
+                <SectionTitle
+                    title="Education"
+                    preTitle="timeline"
+                    subTitle=""
+                />
                 <div className="bg-white min-h-screen flex items-center justify-center rounded-md">
                     <div className="flex flex-col md:grid grid-cols-9 mx-auto p-8">
                         {/* Start */}
@@ -83,13 +83,17 @@ export default function Education() {
 
                             <div className="w-full col-start-6 col-end-10 my-4 mr-auto p-4 border border-gray-300 rounded-xl">
                                 <h3 className="font-semibold text-xl mb-1 text-gray-900">2020-2021</h3>
-                                <p className="text-gray-600">Graduate Intern at Dell EMC.</p>
+                                <p className="text-gray-600">Graduate Intern at Dell EMC.                              
+                                </p>
                             </div>
                         </div>
                         <div className="flex flex-row-reverse md:contents">
                             <div className="w-full col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto border border-gray-300">
                                 <h3 className="font-semibold text-xl mb-1 text-gray-900">2019-2021</h3>
-                                <p className="text-gray-600">JSS Science and Technology University.</p>
+                                <p className="text-gray-600">
+                                    JSS Science and Technology University.
+                                    <div>{"Marks: 9.02CGPA"}</div>
+                                </p>
                             </div>
 
                             <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
