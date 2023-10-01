@@ -1,0 +1,19 @@
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+
+    .tech-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10rem;
+        padding: 2rem;
+    }
+
+    svg{
+        width: auto;
+        height: 100%;
+    }    
+}
+
