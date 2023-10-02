@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import {useEffect} from 'react'
-import {m, useAnimation} from "framer-motion"
-import {useInView} from 'react-intersection-observer'
+import { useEffect } from 'react'
+import { m, useAnimation } from "framer-motion"
+import { useInView } from 'react-intersection-observer'
 
 import Badges from '../../utils/badge.list'
 import Icon from '../../utils/icon'
@@ -11,34 +11,34 @@ import css from '../../../../assets/styles/scss/sections/projects/featured.modul
 
 export default function FeaturedProject({ content }, index) {
 
-	const { project, url, repo, descriptionTitle,description, stack, imageOptions, images } = content
+	const { project, url, repo, descriptionTitle, description, stack, imageOptions, images } = content
 
 	const controls = useAnimation();
-	const { ref, inView  } = useInView({
+	const { ref, inView } = useInView({
 		"threshold": 0.25,
 		"triggerOnce": false
 	})
 
-	useEffect( () => {
-		if ( inView ) {	controls.start("visible") }
-		if ( !inView ) { controls.start("hidden") }
-	}, [ controls, inView ] )
+	useEffect(() => {
+		if (inView) { controls.start("visible") }
+		if (!inView) { controls.start("hidden") }
+	}, [controls, inView])
 
 	return (
-		<m.section 	
+		<m.section
 			key={index}
-			className={css.project} 
+			className={css.project}
 			//framer-motion
 			ref={ref}
 			variants={container}
-			initial={[ "rest", "hidden" ]}
+			initial={["rest", "hidden"]}
 			whileHover="hover"
 			animate={controls} >
-			
+
 			<div className={css.details}>
 				<div className={css.projectHeader}>
 					<div className={css.header}>
-						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>	
+						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>
 					</div>
 					<div className={css.description}>
 						<p><strong>{descriptionTitle}</strong> {description}</p>
@@ -46,25 +46,24 @@ export default function FeaturedProject({ content }, index) {
 					<div className={css.stackContainer}>
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
-					<m.div variants={''} className={css.viewProject}>
-						<Icon icon={[ 'fad', 'arrow-right-to-bracket' ]} />
-					</m.div>
+
 				</div>
 			</div>
 
 			<div className={css.imageContainer}>
 				<span className={`${css.imageAnimationContainer}`}>
-					{ images.map( ({key, url, hover, h, w }, index) => {
-						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
+					{images.map(({ key, url, hover, h, w }, index) => {
+						hover = (hover === 'left') ? hoverLeft : hoverRight
 						return (
 							<m.div key={`${index}-${key}`} variants={item}>
 								<m.div variants={hover}>
-									<Image src={url} alt="x" height={h} width={w}  loading="eager"
+									<Image src={url} alt="x" height={h} width={w} loading="eager"
 									/>
 								</m.div>
 							</m.div>
-						)}
-					) }
+						)
+					}
+					)}
 				</span>
 			</div>
 		</m.section>
@@ -72,7 +71,7 @@ export default function FeaturedProject({ content }, index) {
 }
 
 const container = {
-	hidden: { 
+	hidden: {
 		transition: {
 			delayChildren: 0.125,
 			staggerChildren: 0.0625
@@ -99,13 +98,13 @@ const container = {
 }
 
 const item = {
-	hidden: { 
-		y: 75, 
+	hidden: {
+		y: 75,
 		opacity: 0,
 		transition: {
 			type: "tween",
 			ease: "easeIn",
-			duration: .35, 
+			duration: .35,
 		}
 	},
 	visible: {
@@ -114,7 +113,7 @@ const item = {
 		transition: {
 			type: "tween",
 			ease: "easeOut",
-			duration: .5, 
+			duration: .5,
 		}
 	},
 }

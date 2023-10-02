@@ -4,15 +4,15 @@ import {useInView} from 'react-intersection-observer'
 
 // Utility components
 import Icon from './icon.tsx'
-
+import cN from 'classnames'
 
 import badges from '../../../assets/styles/scss/blocks/badges.module.scss';
 import BadgesBlockProps from "../blocks/about.badges";
 
 
 
-export default function Badges({ list, block, color, fullContainer }) {
-
+export default function Badges(prop) {
+	const { list, block, color, fullContainer } = prop
 	const controls = useAnimation();
 	const { ref, inView  } = useInView({
 		"threshold": 0.5,
@@ -63,13 +63,16 @@ export default function Badges({ list, block, color, fullContainer }) {
 				whileHover="hover"
 		>
 		{
-		list.map( ({ key, name, type }) => {
+		list.map( ({ key, name, type, icon }) => {
 			return (
 				<m.li
 					key={name}
 					className={`${badges.item} ${key}`}
 					//Animations
 					variants={item} >
+						<span className={cN(badges['custom-icon'])}>{ 
+						icon?icon():''
+					}</span>
 					<IconModule iconKey={key} iconType={type} color={color}/>
 					<span className={badges.title}>{name}</span>
 				</m.li>
