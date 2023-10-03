@@ -1,7 +1,7 @@
 import React from 'react'
 import projectsStyle from "../projects.module.scss";
 import Image from "next/image";
-
+import ProfilePic from "./Images/profilepic.jpeg";
 const ProjectComponent = (props: any) => {
     const {date, title, status, link} = props.project
   return (
@@ -23,7 +23,7 @@ const ProjectComponent = (props: any) => {
       </div>
       <div className={projectsStyle["project-box-footer"]}>
         <div className={projectsStyle["participants"]}>
-          <Image src={"https://media.licdn.com/dms/image/D5603AQENjXzzoiDdpA/profile-displayphoto-shrink_800_800/0/1667288792114?e=1701907200&v=beta&t=mLIqbC8Nb7f_wq8SOjYUdnSF7pUvLvb4ULTf9QdEwY0"} alt="participant" />
+          <Image src={ProfilePic} alt="participant" />
         </div>
         <div className={projectsStyle["days-left"]} style={{ color: '#ff942e' }}>
           Done
