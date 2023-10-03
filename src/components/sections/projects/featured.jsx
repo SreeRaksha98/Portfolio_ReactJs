@@ -8,25 +8,29 @@ import SectionTitle from '../../blocks/section.title'
 
 import css from '../../../../assets/styles/scss/sections/projects/featured.module.scss'
 import content from '../../../content/projects/featured.json'
-
+import Projects from './projects'
 {/* Featured Projects */}
 export default function FeaturedProjects() {
 
 	return (
 		<Section classProp={css.hasBg}>	
-			<Container spacing={'verticalXXXXLrg'}>
+		<Container spacing={'verticalXXXLrg'}>
+			<Container spacing={'verticalLrg'}>
 				<SectionTitle
 					title="Featured Projects"
-					preTitle="UX and Full Stack"
-					subTitle="Focused on the experience, driven by the engineering."
-				/> 				{
-				content.map( (data, index) => {
-					return (
-						<FeaturedProject content={data} index={index} key={index} />
-					)
-				})
+					preTitle="UI and Frontend Developer { <JS /> >> <React /> >> <NextJs /> }"
+					subTitle="Focused on the experience, driven by the engineering { <Node.Js /> }."
+				/> 	
+				<Projects />
+				{	
+					content.map( (data, index) => {
+						return (
+							<FeaturedProject content={data} index={index} key={index} />
+						)
+					})
 				}
 			</Container>
+			
 			<div className={css.bgContainer}>
 				<span className={css.orbitalBg}>
 					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
@@ -35,6 +39,7 @@ export default function FeaturedProjects() {
 				</span>
 				<span className={css.afterGlowBg}></span>
 			</div>
+			</Container>
 		</Section>
 	)
 }

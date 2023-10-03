@@ -4,7 +4,17 @@
 }
 :root{
     --mobile: 768px;
-    --reading-width: 1000px
+    --reading-width: 1000px;
+    /**
+     * Projcts Scss Variable
+     **/
+	--projects-section: #fff;
+    --main-color: #1f1c2e;
+    --secondary-color: #4a4a4a;
+    --link-color: #1f1c2e;
+    --link-color-hover: #c3cff4;
+    --link-color-active: #fff;
+    --link-color-active-bg: #1f1c2e;
 }
 :root{
     --font-xx: 0.60rem;
