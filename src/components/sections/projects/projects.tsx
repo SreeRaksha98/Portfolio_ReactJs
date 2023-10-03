@@ -75,7 +75,7 @@ const Projects: React.FC = () => {
       </div>
       <div className={`${projectsStyle["project-boxes"]} jsGridView ${view==='grid'?projectsStyle["jsGridView"]:''}`}>
         {/* each box */}
-        {MyProjectList.map( (project) => { return <ProjectComponent project = {project} />})}
+        {MyProjectList.map( (project, key) => { return <ProjectComponent project = {project} key = {key} />})}
       </div>
 
     </div>
