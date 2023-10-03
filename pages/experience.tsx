@@ -6,7 +6,6 @@ import Container from '../src/components/structure/container';
 import Section from "../src/components/structure/section"
 import { useInView } from 'react-intersection-observer'
 import css from '../assets/styles/scss/sections/projects/featured.module.scss'
-import Icon from '../src/components/utils/icon'
 import about from '../assets/styles/scss/sections/index/about.module.scss';
 import cN from "classnames"
 import Badges from "../src/components/utils/badge.list"
