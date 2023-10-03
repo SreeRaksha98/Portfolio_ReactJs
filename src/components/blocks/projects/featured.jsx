@@ -18,7 +18,7 @@ export default function FeaturedProject({ content }, index) {
 		"threshold": 0.25,
 		"triggerOnce": false
 	})
-
+ 
 	useEffect(() => {
 		if (inView) { controls.start("visible") }
 		if (!inView) { controls.start("hidden") }
