@@ -25,7 +25,7 @@ export default function Home() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<Image src={rakshaImage} width={600} height={800} alt="SreeRaksha M R"   loading="eager" />
+						<Image src={rakshaImage} width={600} height={800} alt="Sreeraksha M R"   loading="eager" />
 					</div>
 					<div className= {about.copy}>
 						<CopyBlock

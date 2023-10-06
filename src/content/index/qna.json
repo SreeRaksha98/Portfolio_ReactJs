@@ -1,19 +1,13 @@
 [
   {
-    "question": "Where are you currently studying?",
-    "answer": "I am currently studying computer science at the Velammal College of Engineering and Technology.",
-    "isOpen": false
-
-  },
-  {
     "question": "Have you worked on any projects?",
-    "answer": "Yes, in addition to my personal projects and hobbies, I have worked on several projects, both individually and in teams. These projects have allowed me to apply theoretical knowledge to real-world scenarios, honing my practical skills in software development, web technologies, and computer networks.",
+    "answer": "Yes, in addition to my personal projects and hobbies, I have worked on several projects, both individually and in teams. These projects have given me an insight on the real time work-around, project flows and debugging skills",
     "isOpen": false
 
   },
   {
     "question": "What extracurricular activities have you participated in?",
-    "answer": "I have actively participated in extracurricular activities and technical events on campus, which have provided me with opportunities to expand my knowledge, network with fellow students, and enhance my leadership and communication skills.",
+    "answer": "I have received the prestigious Miss Philomena Award twice, showcasing my outstanding achievements, and have actively participated in the highly competitive Miss Mysore Competition. Additionally, I am a talented pencil sketch artist known for my artistic skills and proficiency in creating detailed sketches. Furthermore, I enjoy playing the guitar, demonstrating my musical talents and passion for music.",
     "isOpen": false
 
   },
@@ -25,7 +19,7 @@
   },
   {
     "question": "How do you stay updated with the latest developments in your field?",
-    "answer": "I believe in continuous learning and staying updated with the latest trends. I regularly read tech blogs, follow industry experts on social media, and participate in online courses and workshops to enhance my knowledge and skills. I am also actively involved in developing new projects that allow me to apply and expand my expertise.",
+    "answer": "I believe that staying updated with the latest technological is one of the crucial part of life, So read I read some of the blogs from medium, mdn(mozilla developer network) and css-triks written by the author of the site or various developer, I also watch videos on youtube about the latest technology and also stay updated with communicating with various people",
     "isOpen": false
 
   }
