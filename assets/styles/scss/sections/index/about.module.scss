@@ -157,7 +157,12 @@
 	flex-direction: row; /* Align email and input in a row */
 	align-items: center; /* Vertically center the elements */
 }
-
+.edu {
+	background: var(--background-dim2);
+	.eachEdu {
+		background: var(--background);
+	}
+}
 /* New styles for the email */
 .email {
 	padding: 0.2rem 0.5rem;
