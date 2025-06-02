@@ -11,7 +11,7 @@ import cN from "classnames"
 import Badges from "../src/components/utils/badge.list"
 import { AiFillApi, AiFillGithub, AiFillHtml5, AiFillDatabase } from 'react-icons/ai'
 import { FaCss3Alt } from "react-icons/fa";
-import {SiMysql, SiPython } from "react-icons/si"
+import {SiMysql, SiPython, SiNextdotjs, SiReact, SiMagento, SiProgressivewebapps, SiAugmentedreality } from "react-icons/si"
 export default function Experience() {
 
     const controls = useAnimation();
@@ -30,6 +30,61 @@ export default function Experience() {
         <Section classProp={about.section}>
             <Container spacing={['verticalXXLrg']}>
                 <Container spacing={['verticalLrg']} classProp={about.experienceContainer}>
+                <m.section
+                        key={0}
+                        className={css.project}
+                        framer-motion
+                        ref={ref}
+                        variants={container}
+                        initial={["rest", "hidden"]}
+                        whileHover="hover"
+                        animate={controls} >
+
+                        <div className={css.experience}>
+                            <div className={css.projectHeader}>
+                                <div className={css.header}>
+                                    <h3 className="highlight">Senior Software Engineer | Lead Developer</h3><span className={css.privateOr}>2023-present</span>
+                                </div>
+                                <div className={cN(css.description)}>
+                                    <p><strong>Codilar Technologies | Bengaluru, India</strong></p>
+                                </div>
+                                <div className={css.stackContainer}>
+                                        At Codilar Technologies in Bengaluru, I worked on a range of e-commerce projects across web and mobile platforms,
+                                        primarily using <strong>Next.js</strong>, <strong>React</strong>, <strong>Adobe Commerce (Magento)</strong>, and
+                                        <strong>React Native</strong>. My role involved optimizing performance, enhancing user experience,
+                                        integrating third-party tools, and delivering custom features to meet client requirements.
+                                </div>
+                                <div className={css.stackContainer}>
+                                    <h3 className="text-lg font-semibold mt-6 mb-3 text-gray-800">Key Contributions:</h3>
+                                    <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4 ml-2 md:ml-8">
+                                    <li>Customized checkout flows and integrated analytics in Next.js applications.</li>
+                                    <li>Implemented SSR for SEO and performance improvements.</li>
+                                    <li>Worked on Adobe Commerce customizations including email templates and product personalization.</li>
+                                    <li>Developed mobile features using React Native with backend integration.</li>
+                                    <li>Optimized website performance using lazy loading, image optimization, and third-party script offloading.</li>
+                                    <li>Integrated AR features and chatbot scripts in progressive web apps (PWA).</li>
+                                    </ul>
+
+                                </div>
+                                <Badges list={[
+                                    { "key": "javascript", "name": "Javascript", "type": "devicon" },
+                                    { "key": "html", "name": "HTML", "type": "devicon", icon: AiFillHtml5 },
+                                    { "key": "css", "name": "CSS", "type": "devicon", icon: FaCss3Alt },
+                                    { "key": "git", "name": "Git", "type": "devicon" },
+                                    { "name": "Github", icon: AiFillGithub },
+                                    { "key": "linux", "name": "Linux", "type": "devicon" },
+                                    { "key": "jira", "name": "Jira", "type": "devicon" },
+                                    { "name": "Millennium", "type": "devicon", icon: AiFillApi },
+                                    { "name": "Next.js", "type": "devicon", icon: SiNextdotjs },
+                                    { "name": "React", "type": "devicon", icon: SiReact },
+                                    { "name": "Adobe Commerce", "type": "devicon", icon: SiMagento },
+                                    { "name": "React Native", "type": "devicon", icon: SiReact },
+                                    { "name": "PWA", "type": "devicon", icon: SiProgressivewebapps },
+                                    { "name": "AR", "type": "devicon", icon: SiAugmentedreality },
+                                ]} block="stack" fullContainer={false} color={false} />
+                            </div>
+                        </div>
+                    </m.section>
                     <m.section
                         key={0}
                         className={css.project}
@@ -43,7 +98,7 @@ export default function Experience() {
                         <div className={css.experience}>
                             <div className={css.projectHeader}>
                                 <div className={css.header}>
-                                    <h3 className="highlight">System Analyst 1</h3><span className={css.privateOr}>2021-present</span>
+                                    <h3 className="highlight">Software Engineer</h3><span className={css.privateOr}>2021-2023</span>
                                 </div>
                                 <div className={cN(css.description)}>
                                     <p><strong>Oracle Cerner | Bengaluru, India</strong></p>
@@ -81,7 +136,7 @@ export default function Experience() {
                         <div className={css.experience}>
                             <div className={css.projectHeader}>
                                 <div className={css.header}>
-                                    <h3 className="highlight">Graduate Intern</h3><span className={css.privateOr}>2020-2021</span>
+                                    <h3 className="highlight">Frontend Derveloper</h3><span className={css.privateOr}>2020-2021</span>
                                 </div>
                                 <div className={cN(css.description)}>
                                     <p><strong>Dell EMC | Bengaluru, India</strong></p>
@@ -117,7 +172,7 @@ export default function Experience() {
                         <div className={css.experience}>
                             <div className={css.projectHeader}>
                                 <div className={css.header}>
-                                    <h3 className="highlight">Frontend Intern</h3>
+                                    <h3 className="highlight">Software Engineer Intern</h3>
                                 </div>
                                 <div className={cN(css.description)}>
                                     <p><strong>For Ur Service | Mysuru, India</strong></p>

@@ -71,6 +71,10 @@
 			flex-grow: 0;
 			flex-shrink: 1;
 			height: fit-content;
+			min-width: 100px;
+			text-align: center;
+			display: flex;
+			justify-content: center;
 		}
 	}
 
