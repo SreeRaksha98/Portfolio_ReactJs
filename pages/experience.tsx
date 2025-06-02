@@ -82,7 +82,7 @@ export default function Experience() {
                                     { "name": "Adobe Commerce", "type": "devicon", icon: SiMagento },
                                     { "name": "React Native", "type": "devicon", icon: SiReact },
                                     { "name": "PWA", "type": "devicon", icon: SiPwa },
-                                    { "name": "AR", "type": "devicon", icon: TbAugmentedReality },
+                                    { "name": "AR", "type": "devicon", icon: TbAugmentedReality, color: "white" },
                                 ]} block="stack" fullContainer={false} color={false} />
                             </div>
                         </div>
