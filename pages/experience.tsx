@@ -11,7 +11,9 @@ import cN from "classnames"
 import Badges from "../src/components/utils/badge.list"
 import { AiFillApi, AiFillGithub, AiFillHtml5, AiFillDatabase } from 'react-icons/ai'
 import { FaCss3Alt } from "react-icons/fa";
-import {SiMysql, SiPython, SiNextdotjs, SiReact, SiMagento, SiProgressivewebapps, SiAugmentedreality } from "react-icons/si"
+import {SiMysql, SiPython, SiNextdotjs, SiReact, SiMagento, SiPwa } from "react-icons/si"
+import { TbAugmentedReality } from "react-icons/tb";
+
 export default function Experience() {
 
     const controls = useAnimation();
@@ -79,8 +81,8 @@ export default function Experience() {
                                     { "name": "React", "type": "devicon", icon: SiReact },
                                     { "name": "Adobe Commerce", "type": "devicon", icon: SiMagento },
                                     { "name": "React Native", "type": "devicon", icon: SiReact },
-                                    { "name": "PWA", "type": "devicon", icon: SiProgressivewebapps },
-                                    { "name": "AR", "type": "devicon", icon: SiAugmentedreality },
+                                    { "name": "PWA", "type": "devicon", icon: SiPwa },
+                                    { "name": "AR", "type": "devicon", icon: TbAugmentedReality },
                                 ]} block="stack" fullContainer={false} color={false} />
                             </div>
                         </div>
