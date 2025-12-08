@@ -12,14 +12,14 @@
 
 	"header": {
 		"name": "Sreeraksha M R.",
-		"usp": "Passionate FrontEnd Developer."
+		"usp": "FrontEnd Developer."
 	},
 
 	"paragraph": "My passion for frontend development is like a canvas waiting to be painted with captivating user interfaces and seamless user experiences. With every line of code, I transform creative designs into interactive and visually appealing websites and applications. In the fast-paced world of web development, my passion drives me to stay on the cutting edge, exploring new design trends and optimizing performance. ",
 
 	"buttons": {
 		"primary": {
-			"title": "Hire Me",
+			"title": "Contact",
 			"url": "mailto:sreeraksha1998@gmail.com",
 			"leaveSite": false
 		},
