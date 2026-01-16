@@ -17,7 +17,7 @@ import cN from "classnames"
 
 function Toolstack() {
     return (
-        <div className={style["skill-container"]} style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <div className={`${style["skill-container"]} grid-cols-2 sm:grid-cols-1 md:grid-cols-3`} style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <div className={cN(style["tech-icons"], "border border-gray-200 rounded-lg shadow dark:border-gray-700 h-20 w-auto")}>
                 <SiLinux />
             </div>

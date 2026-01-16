@@ -1,15 +1,13 @@
 {
-	"name": "Sree Raksha M R",
+	"name": "Sreeraksha M R",
 	"logo": "",
 
 	"username": {
 		"github": "SreeRaksha98",
-		"medium": "@SreeRaksha98",
-		"dev": "sreeraksha1998"
+		"medium": "@raksharamesh1998"
 	},
 
 	"portfolio": {
-		"fork_this": "This is an open-source project 🥰",
 		"repo_html": "https://github.com/SreeRaksha98/portfolio.git",
 		"repo_api": "https://api.github.com/repos/SreeRaksha98/portfolio"
 	}

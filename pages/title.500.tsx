@@ -6,17 +6,17 @@ export default function Title500() {
         <Head>
 
             {/*
-				Author: Sree Raksha M R
+				Author: Sreeraksha M R
                  GitHub: Visit the GitHub repository at https://github.com/SreeRaksha98/portfolio/ for more details.
                  license: MIT License
                   */}
             <meta charSet="utf-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-            <title>500: internal server error | Sree Raksha M R</title>
+            <title>500: internal server error | Sreeraksha M R</title>
             <meta name="description" content="The requested page was occur internal server error " />
             {/*These are the Keywords that will Boost your SEO in Ranking, so Make Sure to include and Update it up to your preference or don't mind this! 😴*/}
-            <meta name="keywords" content="500, internal server error, Sree Raksha M R, Portfolio,broken link ,missing page,link not found" />
+            <meta name="keywords" content="500, internal server error, Sreeraksha M R, Portfolio,broken link ,missing page,link not found" />
 
 
 

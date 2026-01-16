@@ -7,11 +7,11 @@ export default function TitleDocs() {
             <meta charSet="utf-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-            <meta name="description" content="Explore a collection of documentation for my Open Source projects authored by Sree Raksha M R, covering various technology topics." />
+            <meta name="description" content="Explore a collection of documentation for my Open Source projects authored by Sreeraksha M R, covering various technology topics." />
 
             {/*These are the Keywords that will Boost your SEO in Ranking, so Make Sure to include and Update it up to your preference or don't mind this! 😴*/}
-            <meta name="keywords" content="Sree Raksha M R, Documentation, Technology, Software, Guides, Tutorials, Developer" />
-            <title>Documentations | Sree Raksha M R</title>
+            <meta name="keywords" content="Sreeraksha M R, Documentation, Technology, Software, Guides, Tutorials, Developer" />
+            <title>Documentations | Sreeraksha M R</title>
         </Head>
     );
 }

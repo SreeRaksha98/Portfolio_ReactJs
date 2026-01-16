@@ -27,9 +27,9 @@ const QnA: React.FC = () => {
             <Container spacing={['verticalXXXLrg']}>
                 <SectionTitle title="Q & A" preTitle="" subTitle="Get your Questions answered." />
 
-                <div className={career.area}>
+                <div className={`${career.area}`}>
                     {qnas.map((qna, index) => (
-                        <div key={index} className={career.company}>
+                        <div key={index} className={`${career.company}  flex flex-col`}>
                             <div
                                 className={career.companyContent}
                                 style={{ cursor: 'pointer', fontWeight: 'bold' }}

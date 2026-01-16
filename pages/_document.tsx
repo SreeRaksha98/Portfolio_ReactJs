@@ -9,7 +9,7 @@ export default function Document() {
 			
 <Head>
 {/*
-				Author: SreeRaksha M R
+				Author: Sreeraksha M R
                  GitHub: Visit the GitHub repository at https://github.com/SreeRaksha98/portfolio/ for more details.
                  license: MIT License
                   */}
@@ -17,13 +17,13 @@ export default function Document() {
     <meta charSet="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
-    <title>SreeRaksha M R</title>
-       <meta name="description" content="SreeRaksha M R - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
+    <title>Sreeraksha M R</title>
+       <meta name="description" content="Sreeraksha M R - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
 
     {/*These are need for PWA*/}
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="Sree Raksha M R" />
+    <meta name="apple-mobile-web-app-title" content="Sreeraksha M R" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
@@ -33,17 +33,17 @@ export default function Document() {
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
             <meta name="language" content="English"/>
             <meta name="revisit-after" content="1 days"/>
-            <link rel="canonical" href="https://sreeraksha.in" />
+            <link rel="canonical" href="https://sreeraksha.vercel.app" />
             <meta name="license" content="MIT License" />
             <meta httpEquiv="content-language" content="en-us" />
 
-            <link rel="preconnect" href="https://sreeraksha.in" />
+            <link rel="preconnect" href="https://sreeraksha.vercel.app" />
 
-            <link rel="dns-prefetch" href="https://sreeraksha.in" />
+            <link rel="dns-prefetch" href="https://sreeraksha.vercel.app" />
 
-            <meta name="author" content="Sree Raksha M R" />
+            <meta name="author" content="Sreeraksha M R" />
 
-            <link rel="alternate" hrefLang="en" href="https://sreeraksha.in" />
+            <link rel="alternate" hrefLang="en" href="https://sreeraksha.vercel.app" />
 
             <meta name="robots" content="index, follow" />
             <meta name="googlebot" content="index, follow" />
@@ -66,28 +66,28 @@ export default function Document() {
 
 
 
-            <meta property="og:title" content="Sree Raksha M R" key="title" />
-            <meta property="og:description" content="Sree Raksha M R - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta property="og:image" content="https://sreeraksha.in/img/sreeraksha1998.jpeg" />
-            <meta property="og:image:secure_url" content="https://sreeraksha.in/img/sreeraksha1998.jpeg" />
+            <meta property="og:title" content="Sreeraksha M R" key="title" />
+            <meta property="og:description" content="Sreeraksha M R - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
+            <meta property="og:image" content="https://sreeraksha.vercel.app/img/sreeraksha1998.jpeg" />
+            <meta property="og:image:secure_url" content="https://sreeraksha.vercel.app/img/sreeraksha1998.jpeg" />
             <meta property="og:image:type" content="image/jpeg" />
-            <meta property="og:image:alt" content="Sree Raksha M R" />
+            <meta property="og:image:alt" content="Sreeraksha M R" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
-            <meta property="og:url" content="https://sreeraksha.in" />
+            <meta property="og:url" content="https://sreeraksha.vercel.app" />
             <meta property="og:type" content="website" />
             <meta property="og:profile" content="https://github.com/SreeRaksha98" />
-            <meta property="og:site_name" content="Sree Raksha M R" />
+            <meta property="og:site_name" content="Sreeraksha M R" />
              <meta property="og:locale" content="en_US" />
 
 
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content="https://twitter.com/sreeraksha" />
-            <meta name="twitter:title" content="Sree Raksha M R" />
-            <meta name="twitter:description" content="Sree Raksha M R - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta name="twitter:image" content="https://sreeraksha.in/img/sreeraksha1998.jpeg" />
+            <meta name="twitter:title" content="Sreeraksha M R" />
+            <meta name="twitter:description" content="Sreeraksha M R - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
+            <meta name="twitter:image" content="https://sreeraksha.vercel.app/img/sreeraksha1998.jpeg" />
             <meta name="twitter:creator" content="https://twitter.com/sreeraksha" />
-            <meta name="twitter:domain" content="https://sreeraksha.in" />
+            <meta name="twitter:domain" content="https://sreeraksha.vercel.app" />
 
 
     <link rel='apple-touch-startup-image' href='/img/logo_rounded.png' sizes='2048x2732' />
@@ -100,28 +100,28 @@ export default function Document() {
 
             {/*These are the Keywords that will Boost your SEO in Ranking, so Make Sure to include and Update it up to your preference or don't mind this! 😴*/}
             <meta name="keywords" content="
-    Sree Raksha M R, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
+    Sreeraksha M R, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
     Programmer, Software Developer, Portfolio Website, Web Developer, Coding, Full Stack Development,
     Technology Enthusiast, Software Development, Computer Science, Programming Projects,
     Frontend Developer, Backend Developer, Software Development Portfolio, Student,
-    Full Stack Web Developer, Sree Raksha M R Portfolio, Coding Projects, Tech Portfolio,
-    Web Development, DevOps Professional, Sree Raksha M R Projects, Software Engineer Portfolio,
+    Full Stack Web Developer, Sreeraksha M R Portfolio, Coding Projects, Tech Portfolio,
+    Web Development, DevOps Professional, Sreeraksha M R Projects, Software Engineer Portfolio,
     IT Professional, Technology Projects, Software Development Engineer, Computer Programmer,
     Code Portfolio, Technology Student, Software Architect, Cloud Computing,
     DevOps Specialist, Software Engineering Projects, Coding Portfolio,
-    Full Stack Engineer Portfolio, Sree Raksha M R Web Developer,
+    Full Stack Engineer Portfolio, Sreeraksha M R Web Developer,
     Software Development Student, Coding Enthusiast, DevOps Portfolio, Programming Portfolio,
-    Sree Raksha M R DevOps, IT Portfolio, Web Developer Portfolio, Sree Raksha M R Developer,
-    Full Stack Engineer Sree Raksha M R, Sree Raksha M R Coding, Sree Raksha M R IT,
-    Sree Raksha M R Full Stack Developer, Sree Raksha M R Software Engineer, Sree Raksha M R DevOps Engineer,
-    Sree Raksha M R Programming, Sree Raksha M R Software Development, Sree Raksha M R Coding Projects,
-    Sree Raksha M R Tech Portfolio, Sree Raksha M R IT Portfolio, Sree Raksha M R Software Engineer Portfolio,
-    Sree Raksha M R Web Developer Portfolio, Sree Raksha M R DevOps Portfolio, Sree Raksha M R Full Stack Engineer,
-    Sree Raksha M R Full Stack Developer Portfolio, Sree Raksha M R Coding Portfolio, Sree Raksha M R Programming Portfolio,
-    Sree Raksha M R Software Development Portfolio, Sree Raksha M R Technology Projects,
-    Sree Raksha M R Computer Science, Sree Raksha M R Cloud Computing, Sree Raksha M R IT Professional,
-    Sree Raksha M R Technology Enthusiast, Sree Raksha M R Computer Programmer, Sree Raksha M R Code Portfolio,
-    Sree Raksha M R Technology Student, Sree Raksha M R Software Architect,fiaz,fiaz portfolio,fiaz devops,fiaz devops engineer,
+    Sreeraksha M R DevOps, IT Portfolio, Web Developer Portfolio, Sreeraksha M R Developer,
+    Full Stack Engineer Sreeraksha M R, Sreeraksha M R Coding, Sreeraksha M R IT,
+    Sreeraksha M R Full Stack Developer, Sreeraksha M R Software Engineer, Sreeraksha M R DevOps Engineer,
+    Sreeraksha M R Programming, Sreeraksha M R Software Development, Sreeraksha M R Coding Projects,
+    Sreeraksha M R Tech Portfolio, Sreeraksha M R IT Portfolio, Sreeraksha M R Software Engineer Portfolio,
+    Sreeraksha M R Web Developer Portfolio, Sreeraksha M R DevOps Portfolio, Sreeraksha M R Full Stack Engineer,
+    Sreeraksha M R Full Stack Developer Portfolio, Sreeraksha M R Coding Portfolio, Sreeraksha M R Programming Portfolio,
+    Sreeraksha M R Software Development Portfolio, Sreeraksha M R Technology Projects,
+    Sreeraksha M R Computer Science, Sreeraksha M R Cloud Computing, Sreeraksha M R IT Professional,
+    Sreeraksha M R Technology Enthusiast, Sreeraksha M R Computer Programmer, Sreeraksha M R Code Portfolio,
+    Sreeraksha M R Technology Student, Sreeraksha M R Software Architect,fiaz,fiaz portfolio,fiaz devops,fiaz devops engineer,
     fiaz devops portfolio,fiaz devops projects,fiaz devops specialist,fiaz devops professional,fiaz devops engineer portfolio,
     fiaz devops engineer projects,fiaz devops engineer specialist,fiaz devops engineer professional,fiaz devops engineer coding,
     fiaz devops engineer coding projects,fiaz devops engineer coding portfolio,fiaz devops engineer coding specialist,
@@ -141,8 +141,8 @@ export default function Document() {
                     __html: `{
           "@context": "https://schema.org",
           "@type": "Person",
-          "name": "Sree Raksha M R",
-          "url": "https://sreeraksha.in",
+          "name": "Sreeraksha M R",
+          "url": "https://sreeraksha.vercel.app",
           "sameAs": [
             "https://github.com/SreeRaksha98",
             "https://www.linkedin.com/in/SreeRaksha98-",
@@ -180,26 +180,26 @@ export default function Document() {
               },
               {
                 "@type": "Question",
-                "name": "Who is Sree Raksha M R?",
+                "name": "Who is Sreeraksha M R?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Sree Raksha M R is a Full Stack Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Sree Raksha M R strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Sree Raksha M R is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
+                  "text": "Sreeraksha M R is a Full Stack Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Sreeraksha M R strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Sreeraksha M R is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Where is Sree Raksha M R from?",
+                "name": "Where is Sreeraksha M R from?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Sree Raksha M R is from Madurai, Tamil Nadu, India."
+                  "text": "Sreeraksha M R is from Madurai, Tamil Nadu, India."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What does Sree Raksha M R do?",
+                "name": "What does Sreeraksha M R do?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Sree Raksha M R leverages Cloud, DevOps, ML/AI, Design, and web/mobile apps to benefit people with optimized operations and user-friendly experiences."
+                  "text": "Sreeraksha M R leverages Cloud, DevOps, ML/AI, Design, and web/mobile apps to benefit people with optimized operations and user-friendly experiences."
                 }
               }
             ]
@@ -217,27 +217,27 @@ export default function Document() {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://sreeraksha.in/"
+              "item": "https://sreeraksha.vercel.app/"
             },{
               "@type": "ListItem",
               "position": 2,
               "name": "Docs",
-              "item": "https://sreeraksha.in/docs"
+              "item": "https://sreeraksha.vercel.app/docs"
             },{
               "@type": "ListItem",
               "position": 3,
               "name": "Articles",
-              "item": "https://sreeraksha.in/articles"
+              "item": "https://sreeraksha.vercel.app/articles"
             },{
               "@type": "ListItem",
               "position": 4,
               "name": "Projects",
-              "item": "https://sreeraksha.in/projects"
+              "item": "https://sreeraksha.vercel.app/projects"
             },{
               "@type": "ListItem",
               "position": 5,
               "name": "Sign In",
-              "item": "https://sreeraksha.in/signin"
+              "item": "https://sreeraksha.vercel.app/signin"
             }]
           }
         `
